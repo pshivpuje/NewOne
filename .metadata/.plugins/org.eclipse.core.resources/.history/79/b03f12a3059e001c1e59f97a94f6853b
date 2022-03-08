@@ -1,0 +1,14 @@
+package SonarAndJacoco.SonarAndJacoco;
+
+public class Duplication1 extends Duplications {
+	System.out.println("This is second");
+}
+class child4 extends Child1{
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+	}
+
+

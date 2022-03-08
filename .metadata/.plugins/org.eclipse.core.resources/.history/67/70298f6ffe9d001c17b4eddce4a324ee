@@ -1,0 +1,14 @@
+package SonarAndJacoco.SonarAndJacoco;
+
+public class Duplication{
+	private String givenName;
+	private String familyName;
+
+	public void setGivenName(String givenName) {
+	    this.givenName = givenName;
+	}
+
+	public void setFamilyName(String familyName) {
+	    this.familyName = familyName;
+	}
+}

@@ -1,0 +1,7 @@
+package SonarAndJacoco.SonarAndJacoco;
+
+public class Two {
+public int divide (int numerator) {
+	return numerator/0;
+}
+}

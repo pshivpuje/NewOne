@@ -1,0 +1,5 @@
+package SonarAndJacoco.SonarAndJacoco;
+
+public abstract class CharacterClass {
+
+}

@@ -1,0 +1,50 @@
+package SonarAndJacoco.SonarAndJacoco;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+
+	public class TestShowMessage {  
+	    
+	    String message = "Emma Watson";
+	    String message1= "Prathamesh";
+	      
+	     
+	    ShowMessage obj = new ShowMessage(message,message1);  
+	     
+	     
+	    @Test(expected = ArithmeticException.class)  
+	    public void testshow() {      
+	        System.out.println("We are inside of the show() method");       
+	        obj.show();       
+	    }  
+	      
+	    @Test  
+	    public void testfinalMessage() {  
+	        System.out.println("We are inside of the finalMessage() method");  
+	        String msg = "Hello!" + "Emma Watson";  
+	        assertEquals(msg,obj.finalMessage());  
+	    }  
+	    @Test 
+	    public void testnewmessage() {  
+	        System.out.println("We are inside of the NewMessage() method");  
+	        String msg1 = "who is " + "prathamesh";  
+	        assertequlas(msg1,obj.newmessage())
+	        }
+
+		private void assertequlas(String msg1, String newmessage) {
+			// TODO Auto-generated method stub
+			
+		}
+/*
+		@Test(expected = Exception.class)
+	    public void testdivide() {  
+	        System.out.println("We are inside of the testdivide() method");    
+			obj.divide();
+	    } 
+	    */
+	    
+	}  
+
